@@ -11,3 +11,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.item-wrapper {
+	position: relative;
+	overflow: auto;
+	width: 300px;
+	height: 200px;
+  padding: 0 calc(50% - 150px);
+  background: beige;
+}
+
+.absolute {
+  position: absolute;
+  width: 300px;
+  background-color: oldlace;
+  padding-bottom: 20px;
+}
